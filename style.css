@@ -1,0 +1,63 @@
+@import url("https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&display=swap");
+
+* {
+  font-family: "Lexend Deca", sans-serif;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-size: 15px;
+}
+.container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.card {
+  display: grid;
+  overflow: hidden;
+  grid-template-columns: 1fr 1fr 1fr;
+  width: 850px;
+  height: 450px;
+  border-radius: 10px;
+  color: hsl(0, 5%, 88%);
+}
+.card h1 {
+  font-family: "Big Shoulders Display", cursive;
+  font-size: 35px;
+  color: white;
+  text-transform: uppercase;
+  margin: 20px 0px;
+}
+.card p {
+ 
+  line-height: 25px;
+}
+.card-temp {
+  padding: 50px 40px;
+}
+.card1 {
+  background-color: hsl(31, 77%, 52%);
+}
+.card1 button{
+    color: hsl(31, 77%, 52%) ;
+}
+.card2 {
+  background-color: hsl(184, 100%, 22%);
+}
+.card2 button{
+    color:hsl(184, 100%, 22%) ;
+}
+.card3 {
+  background-color: hsl(179, 100%, 13%);
+}
+.card3 button{
+    color:hsl(179, 100%, 13%) ;
+}
+.card button{
+    border-radius: 30px;
+    border: none;
+    padding: 15px 30px;
+    margin-top: 70px;
+}
