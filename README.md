@@ -19,11 +19,11 @@ Should be able to:
 
 
 ### Links
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [My Live Site](https://incandescent-flan-18808a.netlify.app/)
 
 
 ## Author
 
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
+- Frontend Mentor - [@jeanD1300](https://www.frontendmentor.io/profile/jeanD1300)
 
 
