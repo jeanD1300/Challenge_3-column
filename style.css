@@ -31,7 +31,6 @@
   margin: 20px 0px;
 }
 .card p {
- 
   line-height: 25px;
 }
 .card-temp {
@@ -40,24 +39,47 @@
 .card1 {
   background-color: hsl(31, 77%, 52%);
 }
-.card1 button{
-    color: hsl(31, 77%, 52%) ;
+.card1 button {
+  color: hsl(31, 77%, 52%);
 }
 .card2 {
   background-color: hsl(184, 100%, 22%);
 }
-.card2 button{
-    color:hsl(184, 100%, 22%) ;
+.card2 button {
+  color: hsl(184, 100%, 22%);
 }
 .card3 {
   background-color: hsl(179, 100%, 13%);
 }
-.card3 button{
-    color:hsl(179, 100%, 13%) ;
+.card3 button {
+  color: hsl(179, 100%, 13%);
 }
-.card button{
-    border-radius: 30px;
-    border: none;
-    padding: 15px 30px;
-    margin-top: 70px;
+.card button {
+  border-radius: 30px;
+  border: none;
+  padding: 15px 30px;
+  margin-top: 70px;
+  cursor: pointer;
+}
+.card button:hover {
+  background-color: transparent;
+  border: 2px solid white;
+  color: white;
+  transition: 0.3s;
+}
+@media screen and (max-width: 600px) {
+  .container {
+height: 100%;
+  }
+  .card {
+    display: grid;
+    grid-template-columns: 1fr;
+    height: 100%;
+    width: 300px;
+    margin-top: 50px;
+  }
+  .attribution{
+text-align: center;
+color: rgb(124, 125, 126);
+  }
 }
